@@ -11,9 +11,7 @@ button, input, textarea { font: inherit; }
 
 .hero { min-height: 100vh; overflow: hidden; padding: 1.5rem clamp(1.25rem, 5vw, 5.5rem) 4.5rem; background: radial-gradient(circle at 80% 6%, #e8ebd4 0 16%, transparent 40%), var(--bg); }
 .topbar { display: flex; align-items: center; justify-content: space-between; }
-.mark { display: grid; width: 3rem; height: 3rem; place-items: center; border: 1px solid var(--blue); border-radius: 50%; color: var(--blue-deep); font-weight: 800; text-decoration: none; letter-spacing: -.08em; }
 .eyebrow { margin: 0; color: var(--blue); font-size: .82rem; font-weight: 800; letter-spacing: .16em; }
-.page-label { margin-top: 3rem; }
 .intro-title { max-width: 980px; margin: 1.8rem auto 0; color: var(--ink); font-family: "Freesentation", sans-serif; font-size: clamp(1.25rem, 3.3vw, 2.5rem); font-weight: 800; line-height: 1.12; letter-spacing: -.065em; text-align: center; }
 .intro-title > span { display: block; }
 .intro-title > span:last-child { font-size: 1em; white-space: nowrap; }
@@ -86,7 +84,6 @@ footer { padding: 1.4rem; background: #c5e3b9; color: var(--blue-deep); font-siz
 
 @media (max-width: 760px) {
   .hero { padding-bottom: 3rem; }
-  .page-label { margin-top: 2rem; }
   .hero h1 { font-size: clamp(4rem, 20vw, 6rem); }
   .portrait-wrap { width: min(300px, 82vw); margin-top: 1.8rem; }
   .interest-grid { gap: 2.4rem; margin-top: 4.5rem; }
