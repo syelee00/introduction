@@ -9,7 +9,7 @@ type Group = { title: string; subtitle: string; hint?: string; cards: Card[] };
 const groups: Group[] = [
   { title: "운동을 좋아합니다", subtitle: "MOVE WITH JOY", hint: "아래 카드를 하나씩 눌러보세요 :)", cards: [
     { label: "등산", icon: "⛰", description: "등린이지만, 열정은 뿜뿜!\n100대 명산 챌린지에 도전하고 싶어요.", accent: "coral" },
-    { label: "러닝", icon: "⌁", description: "10km 마라톤만 5번째.\n10km 50분대 진입과 하프 마라톤에 도전하고 싶어요.", accent: "blue" },
+    { label: "러닝", icon: "⌁", description: "10km 마라톤만 5번째.\n10km 50분 초반대 진입과 하프 마라톤에 도전하고 싶어요.", accent: "blue" },
     { label: "스쿼시", icon: "◉", description: "2년째 꾸준히 하는 중! 더 잘하고 싶어요.", accent: "green" },
   ] },
   { title: "새롭게 만드는 걸\n좋아합니다", subtitle: "MAKE IT FROM ZERO", cards: [
