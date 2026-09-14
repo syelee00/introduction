@@ -18,7 +18,7 @@ const groups: Group[] = [
     { label: "집밥", icon: "♨", description: "이것저것 맛나게 해 먹는 거 좋아해요.", accent: "coral" },
   ] },
   { title: "새롭게 배우는 걸\n좋아합니다", subtitle: "CURIOUS, ALWAYS", cards: [
-    { label: "AI", icon: "✳", description: "새로운 세상! 열심히 배우고 해보고 싶어요.", accent: "green", link: "https://pre-shot-seven.vercel.app/" },
+    { label: "AI", icon: "✳", description: "새로운 세상! 열심히 배우고 해보고 싶어요.", accent: "green" },
     { label: "소비자행동", icon: "♡", description: "왜, 어떻게 소비자들이 행동하는지 공부하고 있어요.", accent: "yellow" },
   ] },
 ];
