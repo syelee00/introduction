@@ -47,6 +47,7 @@ button, input, textarea { font: inherit; }
 .back.green, .front.green { background: #c7e9d1; }
 .card-link { margin-top: .2rem; color: var(--blue); font-size: .78rem; font-weight: 800; text-decoration: underline; text-underline-offset: .18rem; }
 .gif-note { font-family: "Gumi Romance", sans-serif; font-size: 1.15rem; line-height: 1.15; }
+.emoticon-gif { display: block; width: min(100%, 92px); height: auto; max-height: 92px; object-fit: contain; }
 .scroll-note { margin: 5rem 0 0; color: var(--blue); font-size: .74rem; font-weight: 800; letter-spacing: .16em; text-align: center; }
 
 .dream-section { min-height: 95vh; padding: clamp(5rem, 11vw, 10rem) clamp(1.25rem, 10vw, 10rem); background: linear-gradient(135deg, #d8efc8, #f5faeb); }

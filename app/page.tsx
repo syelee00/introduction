@@ -25,7 +25,7 @@ const groups: Group[] = [
 
 function InterestCard({ card }: { card: Card }) {
   const [flipped, setFlipped] = useState(false);
-  return <button className={`flip-card ${flipped ? "is-flipped" : ""}`} onClick={() => setFlipped(!flipped)} aria-label={`${card.label} ${flipped ? "설명 닫기" : "설명 보기"}`}><span className="flip-inner"><span className={`flip-face front ${card.accent}`}><b>{card.icon}</b><em>{card.label}</em><small>CLICK ME</small></span><span className={`flip-face back ${card.accent}`}><strong>{card.label}</strong>{card.gif ? <span className="gif-note">GIF를 첨부하면<br />여기에 보여드릴게요 ✦</span> : <span>{card.description}</span>}{card.link && <a className="card-link" href={card.link} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>사이트 보러 가기 ↗</a>}</span></span></button>;
+  return <button className={`flip-card ${flipped ? "is-flipped" : ""}`} onClick={() => setFlipped(!flipped)} aria-label={`${card.label} ${flipped ? "설명 닫기" : "설명 보기"}`}><span className="flip-inner"><span className={`flip-face front ${card.accent}`}><b>{card.icon}</b><em>{card.label}</em><small>CLICK ME</small></span><span className={`flip-face back ${card.accent}`}><strong>{card.label}</strong>{card.gif ? <img className="emoticon-gif" src={card.gif} alt="이모티콘 애니메이션" /> : <span>{card.description}</span>}{card.link && <a className="card-link" href={card.link} target="_blank" rel="noreferrer" onClick={(event) => event.stopPropagation()}>사이트 보러 가기 ↗</a>}</span></span></button>;
 }
 
 export default function Home() {
