@@ -14,10 +14,10 @@ button, input, textarea { font: inherit; }
 .mark { display: grid; width: 3rem; height: 3rem; place-items: center; border: 1px solid var(--blue); border-radius: 50%; color: var(--blue-deep); font-weight: 800; text-decoration: none; letter-spacing: -.08em; }
 .eyebrow { margin: 0; color: var(--blue); font-size: .82rem; font-weight: 800; letter-spacing: .16em; }
 .page-label { margin-top: 3rem; }
-.intro-title { max-width: 980px; margin: 1.8rem auto 0; color: var(--ink); font-family: "Freesentation", sans-serif; font-size: clamp(3.05rem, 9vw, 7.15rem); font-weight: 800; line-height: .98; letter-spacing: -.065em; text-align: left; }
+.intro-title { max-width: 980px; margin: 1.8rem auto 0; color: var(--ink); font-family: "Freesentation", sans-serif; font-size: clamp(2rem, 5.4vw, 4.1rem); font-weight: 800; line-height: 1.12; letter-spacing: -.065em; text-align: left; }
 .intro-title > span { display: block; }
-.intro-title > span:last-child { font-size: .86em; white-space: nowrap; }
-.intro-title i { position: relative; display: inline-block; margin: 0 .08em; color: #4d8b27; font-family: "Nanum Brush", cursive; font-size: 1.34em; font-style: normal; font-weight: 400; letter-spacing: -.025em; transform: rotate(-10deg); }
+.intro-title > span:last-child { font-size: 1em; white-space: nowrap; }
+.intro-title i { position: relative; display: inline-block; margin: 0 .2em; color: #4d8b27; font-family: "Nanum Brush", cursive; font-size: 3em; font-style: normal; font-weight: 400; letter-spacing: -.025em; transform: rotate(-10deg); }
 .intro-title i::after { position: absolute; right: -.03em; bottom: .1em; left: -.05em; z-index: -1; height: .2em; background: rgba(148, 186, 84, .23); content: ""; transform: rotate(2deg); }
 .portrait-wrap { position: relative; z-index: 1; width: min(340px, 75vw); margin: clamp(3.5rem, 7vw, 6rem) auto 0; }
 .portrait { overflow: hidden; border: .65rem solid var(--paper); border-radius: 1.3rem; background: #dff1d4; box-shadow: 10px 12px 0 var(--mint-strong); transform: rotate(-2deg); }
